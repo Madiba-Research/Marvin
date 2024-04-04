@@ -1,5 +1,5 @@
 # Implementation of USENIX'2024 paper
-## Racing for TLS Certificate Validation: A Hijacker’s Guide to the Android TLS Galaxy
+## <a href="https://users.encs.concordia.ca/~mmannan/publications/Marvin-usenix2024.pdf"> Racing for TLS Certificate Validation: A Hijacker’s Guide to the Android TLS Galaxy</a>
 
 # Preparation
 ## Update proxy addresss in ebpf and compile ebpf
