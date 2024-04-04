@@ -2,20 +2,24 @@
 ## Update proxy addresss in ebpf and compile ebpf
 
 1. Push ebpf-v2.tar.gz to phone
+```
 $ adb push ebpf-v2.tar.gz /sdcard/Download
 $ mv /sdcard/Download/ebpf-v2.tar.gz /data/
 $ cd /data
 $ tar -xvf ebpf-v2.tar.gz
-
+```
 2. Enter debian system
+```
 $ cd /data/ebpf
 $ ./run
-
+```
 3. enter ebpf source code directory
+```
 $ cd /root/
 $ Update code in d.c, e.c file
-
+```
 4. Compile ebpf
+```
 $ sudo bpftool cgroup detach /sys/fs/cgroup/ connect4 pinned /sys/fs/bpf/bpf_connect4; sudo rm /sys/fs/bpf/bpf_connect4; clang -O2 -g  -Wall -target bpf -I /usr/include/aarch64-linux-gnu -c d.c -o d.o ; sudo bpftool prog load d.o /sys/fs/bpf/bpf_connect4 type cgroup/connect4;sudo bpftool cgroup attach /sys/fs/cgroup/ connect4 pinned /sys/fs/bpf/bpf_connect4
 
 $ sudo bpftool cgroup detach /sys/fs/cgroup/ connect6 pinned /sys/fs/bpf/bpf_connect6; sudo rm /sys/fs/bpf/bpf_connect6; clang -O2 -g  -Wall -target bpf -I /usr/include/aarch64-linux-gnu -c e.c -o e.o ; sudo bpftool prog load e.o /sys/fs/bpf/bpf_connect6 type cgroup/connect6;sudo bpftool cgroup attach /sys/fs/cgroup/ connect6 pinned /sys/fs/bpf/bpf_connect6
@@ -25,7 +29,7 @@ $ nano /etc/resolv.conf
   nameserver 192.168.173.1
   
 $ adb reboot
-
+```
 
 ## Apply ebpf in Android
 1. Push ebpf.tar.gz to Android
