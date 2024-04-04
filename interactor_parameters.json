@@ -1,0 +1,136 @@
+{
+  "keywords": {
+    "install": [],
+    "allow": ["disallow"],
+    "agree": [
+      "agreement", "disagree","no", "don", "privacy", "policy", "cancel"
+    ],
+    "sure":[],
+    "positive":[],
+    "accept": [
+      "not accept"
+    ],
+    "start": [
+      "startup"
+    ],
+    "ok": [
+      "facebook",
+      "book"
+    ],
+    "yes":[],
+    "know":[],
+    "continue": [
+      "continue with"
+    ],
+    "logged": [],
+    "my":[],
+    "mine":[],
+    "me_":[],
+    "_me":[],
+    "login": [
+      "help",
+      "can",
+      "facebook",
+      "google"
+    ],
+    "none of the above": [],
+    "not now": [],
+    "get code": [],
+    "approv": [],
+    "6730": [],
+    "resend": [],
+    "woman": [],
+    "women": [],
+    "female": [],
+    "global": [],
+    "canada": [],
+    "beijing": [],
+    "china":[],
+    "login_skip": [],
+    "skip": [],
+    "jump": [],
+    "gmail.com": [],
+    "confirm": [],
+    "without": [],
+    "google": ["share"],
+    "log in": [
+      "help",
+      "can",
+      "facebook",
+      "google"
+    ],
+    "sign in": [
+      "help",
+      "can",
+      "facebook",
+      "google"
+    ],
+    "register": [],
+    "sign": [
+      "help",
+      "can"
+    ],
+    "enable": [],
+    "submit": [],
+    "retry": [],
+    "again": [],
+    "current": [],
+    "find": [],
+    "guest": [],
+    "test": [],
+    "done": [],
+    "go": [
+      "forgot",
+      "good",
+      "google"
+    ],
+    "member":  [],
+    "an account": [],
+    "later": [],
+    "comment": [],
+    "quick": [],
+    "send": [],
+    "english": [],
+    "dismiss": [],
+    "great": [],
+    "navigation": [],
+    "setting": [],
+    "free": [],
+    "limit": [],
+    "tap": [],
+    "boy":[],
+    "girl":[],
+    "male":[],
+    "click": [],
+    "next": [],
+    "icon": [],
+    "home": [],
+    "back": ["background"],
+    "return": [],
+    "cancel": [],
+    "use": [ "user"],
+    "close": [],
+    "i don": []
+  },
+  "input": {
+    "username": "18758286169",
+    "account": "18758286169",
+    "email": "liyongzhang172@gmail.com",
+    "e-mail": "liyongzhang172@gmail.com",
+    "name": "18758286169",
+    "mobile number": "18758286169",
+    "phone number": "18758286169",
+    "number": "18758286169",
+    "phone": "18758286169",
+    "password": "P4ss@88888888",
+    "code": "9188",
+    "pin": "1370",
+    "city": "Montreal",
+    "sms": "1234",
+    "id": "9188888888",
+    "How old": "45",
+    "YYYY": "1991",
+    "search": "search88888888",
+    "wx_username": "Sunshine"
+  }
+}
