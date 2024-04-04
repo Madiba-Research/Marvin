@@ -165,6 +165,7 @@ install cert.der  in the phone
 
 
 ## Automatically connect to WIFI in the presence of WIFI
+```
 $ adb shell
 $ su
 flame:/ # mkdir /data/crontab
@@ -173,7 +174,7 @@ flame:/ # echo '* * * * * settings put global airplane_mode_on 0' >> /data/cront
 flame:/ # echo 'crond -b -c /data/crontab' > /data/adb/service.d/crond.sh
 flame:/ # chmod +x /data/adb/service.d/crond.sh
 settings put global captive_portal_mode 0
-    
+```
 
 # How to run the tool
 $ while true; do killall -9 mitmdump; killall -9 python3; python3 main.py; adb reboot; sleep 150; done;
